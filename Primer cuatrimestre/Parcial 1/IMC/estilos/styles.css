@@ -1,0 +1,53 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera {
+    width: 100%;
+    background-color: #54545485;
+    font-size: 2rem;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    position: sticky;
+}
+
+h1 {
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.cuerpopag {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.calculadora {
+    list-style: none;
+}
+
+.objetolista {
+    height: 3rem;
+}
+
+.formulario {
+    margin: 3rem auto;
+}
+
+.tabla {
+    text-align: center;
+    margin: 2rem auto;
+    width: 40%;
+    border: 3px solid black;
+}
+
+.tabla th td {
+    margin: 1rem auto;
+    border: 3px solid black;
+}
+.tabla tr td {
+    margin: 1rem auto;
+    border: 3px solid black;
+}

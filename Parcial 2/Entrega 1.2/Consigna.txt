@@ -1,0 +1,11 @@
+Modificar el archivo html enviado en la entrega 1.1:
+
+1. Agregar estilo con css.
+
+2. Agregar un formulario de contacto: Nombre, teléfono, mail, comentario que permita enviar un mail. 
+
+3. Permitir que el html se adapte a diferentes dispositivos: computadoras, tablets, teléfonos.
+
+ 
+
+Abierta hasta : 05/05/2023 23:59

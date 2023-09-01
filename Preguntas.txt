@@ -1,0 +1,8 @@
+1- Como registras tus actividades? Lo haces en papel?
+2- Como te manejas con la administracion del lavadero?
+3- Que servicios brindas?
+4- Sabes cuanto demoran los servicios que brindas?
+5- Controlas stock?
+6- Que datos registras del cliente?
+7- Que datos registras del vehiculo?
+8- Clientes frecuentes abono

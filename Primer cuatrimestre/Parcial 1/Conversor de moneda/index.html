@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Cotiz.Ar</title>
+</head>
+<body>
+    <h1>Cotiz.Ar</h1>
+    <div class="contenedor">
+        <label for="primeraMoneda" class="etiqueta">Seleccione la primera moneda e ingrese el monto:
+            <select name="" id="moneda1" class="selector" onclick="calcular()">
+                <option value="euro" selected>Euro</option>
+                <option value="dolar">Dolar</option>
+                <option value="peso">Peso</option>
+                <option value="real">Real</option>
+            </select>
+            <!-- Input en el html donde se ingresa la cantidad de dinero -->
+            <input type="number" name="monto1" id="monto1" onkeyup="calcular()" min="0" value="0">
+        </label>
+        <label for="segundaMoneda" class="etiqueta">Seleccione la segunda moneda:
+            <select name="" id="moneda2" class="selector" onclick="calcular()">
+                <option value="euro">Euro</option>
+                <option value="dolar" selected>Dolar</option>
+                <option value="peso">Peso</option>
+                <option value="real">Real</option>
+            </select>
+            <label for="monto2" id="monto2">0</label>
+            <label for="moneda2" id="seleccionada">Moneda</label>
+        </label>
+        <!-- <button onclick="calcular()">Calcular</button> -->
+        <!-- <input type="submit" value="Calcular" onclick="calcular()"> -->
+    </div>
+</body>
+</html>

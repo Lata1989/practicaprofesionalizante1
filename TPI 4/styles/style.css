@@ -1,0 +1,120 @@
+html, body {
+    font-size: 16px;
+}
+
+header {
+    align-items: center;
+    z-index: 100;
+}
+
+footer {
+    z-index: 100;
+}
+
+.logo {
+    width: 10rem;
+}
+
+.redSocial {
+    width: 2rem;
+}
+
+.container {
+    width: 100%;
+    margin-top: auto;
+}
+
+.centrado {
+    top: 50%;
+    left: 50%;
+}
+
+.ocupar {
+    min-height: 90vh;
+    max-height: 90vh;
+}
+
+.titular {
+    font-size: 4rem;
+}
+
+.texto {
+    font-size: 1.2rem;
+}
+
+.login-div {
+    margin-top: 20vh;
+    margin-left: 30%;
+    margin-right: 50%;
+    width: 40%;
+}
+
+.etiqueta-form {
+    display: block;
+}
+
+.input-element {
+    min-width: 25rem;
+    border: 0.1px solid #34343446;
+}
+/*
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: auto;
+    align-items: center;
+    color: #000000;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    background-color: blue;
+}
+
+.logo {
+    width: 13rem;
+    display: inline;
+}
+
+.logoSolucion {
+    width: 30%;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+.menu, li {
+    list-style: none;
+    width: 70%;
+}
+
+.titulo {
+    display: block;
+    margin: 1rem auto;
+}
+
+.formulario {
+    border: #000000 1px solid;
+    border-radius: 10px;
+    margin: 2rem auto;
+    width: 50%;
+    height: 300px;
+    align-items: center;
+    align-content: center;
+}
+
+.formulario¿, label {
+    margin: 1rem auto;
+    display: block;
+}
+
+.formulario¿, label, input {
+    margin: 1rem auto;
+    display: block;
+} */

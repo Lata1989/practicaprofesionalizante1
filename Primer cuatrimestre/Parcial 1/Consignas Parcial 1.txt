@@ -1,0 +1,2 @@
+1) Conversor de moneda de pesos a dolares, euros y reales. Tambien intercambiables entre ellos.
+2) Calculadora de IMC (Indice de masa corporal)

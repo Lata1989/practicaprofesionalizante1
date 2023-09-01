@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/styles.css">
+    <script src="scripts/script.js"></script>
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <header class="cabecera">
+        <h1>
+            <span class="rojo">I</span>
+            <span class="verde">M</span>
+            <span class="azul">C</span>
+        </h1>
+    </header>
+    <main class="cuerpopag">
+        <h3>Calculadora de IMC</h3>
+        <form action="" class="formulario">
+            <ul class="calculadora">
+                <li class="objetolista">
+                    <label for="altura">Ingrese su altura en metros:</label>
+                    <input type="number" min="0" max="240" id="altura" onkeyup="calcular()">
+                </li>
+                <li class="objetolista">
+                    <label for="peso">Ingrese su peso en kilogramos:</label>
+                    <input type="number" id="peso" min="0" max="500" onkeyup="calcular()">
+                </li>
+                <!-- <li class="objetolista">
+                    <input type="button" id="botonCalculo" onclick="calcular()" value="Calcular">
+                </li> -->
+                <li class="objetolista">
+                    <label for="IMC">Su indice de masa corporal es:</label>
+                    <!-- <input type="text" id="IMC" value="IMC" disabled> -->
+                    <p id="textoRta">IMC</p>
+                </li>
+            </ul>
+        </form>
+
+        <table class = "tabla">
+            <tr>
+                <td>Valor</td>
+                <td>Clasificación IMC</td>
+            </tr>
+            <tr>
+                <td> Menos de 18.5 kg/m2 </td>
+                <td> Bajo peso</td>
+            </tr>
+            <tr>
+                <td> Entre 18.5 - 24.9 kg/m2 </td>
+                <td> Normal</td>
+            </tr>
+            <tr>
+                <td> Entre 25.0 - 29.9 kg/m2 </td>
+                <td> Sobrepeso</td>
+            </tr>
+            <tr>
+                <td> Entre 30.0 - 34.9 kg/m2 </td>
+                <td> Obesidad</td>
+            </tr>
+            <tr>
+                <td> Entre 35.0 - 39.9 kg/m2 </td>
+                <td> Obesidad grado 2 </td>
+            </tr>
+            <tr>
+                <td> Mas de 40 kg/m2 </td>
+                <td> Obesidad grado 3 </td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>

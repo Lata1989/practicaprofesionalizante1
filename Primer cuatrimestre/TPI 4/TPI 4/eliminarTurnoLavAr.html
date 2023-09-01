@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imagenes/logoRGBSoftSinFondo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/bootstrap.css">
+    <script defer src="./scripts/bootstrap.js"></script>
+
+    <title>Lav.Ar</title>
+</head>
+
+<body>
+    <!--    Aca esta el header    -->
+    <div class="container-fluid text-bg-dark sticky-top">
+        <header class="d-flex flex-wrap justify-content-center py-3">
+            <a href="./indexLavAr.html"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <img class="logo" src="./imagenes/Lav . ar logo sin fondo.png" alt="Logo Lav.Ar">
+                <span class="fs-4 text-white">Tu lavadero mas simple.</span>
+            </a>
+            <!-- <ul class="nav nav-pills">
+                <li class="nav-item"><a href="./index.html" class="nav-link active" aria-current="page">Inicio</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Turnos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Cliente</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Vehículos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Stock</a></li>
+                <li class="nav-item"><a href="./login.html" class="nav-link">Ingrese</a></li>
+            </ul> -->
+            <!-- <button class="btn btn-secondary rounded-pill px-3" type="button">Salir</button> -->
+            <a class="btn btn-secondary rounded-pill px-3" href="index.html">Salir</a>
+        </header>
+    </div>
+    <!--    Aca adentro esta el sidebar y el main    -->
+    <div class="row mb-3 text-center ocupar">
+        <!--    Aca esta el sidebar    -->
+        <div class="col-2 col-lg-2 themed-grid-col">
+            <div class="flex-shrink-0 p-3" style="width: 280px;">
+                <a href="#"
+                    class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
+                    <svg class="bi pe-none me-2" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                    <span class="fs-5 fw-semibold">Menu</span>
+                </a>
+                <ul class="list-unstyled ps-0">
+                    <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                            data-bs-toggle="collapse" data-bs-target="#servicios-collapse" aria-expanded="false">
+                            Servicios
+                        </button>
+                        <div class="collapse" id="servicios-collapse">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li><a href="./consultarServicioLavAr.html"
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Mostrar
+                                        servicios</a></li>
+                                <li><a href="./registrarServicioLavAr.html"
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Registrar
+                                        servicio</a></li>
+                                <li><a href="./modificarServicioLavAr.html"
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Modificar
+                                        servicio</a></li>
+                                <li><a href="./eliminarServicioLavAr.html"
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Eliminar
+                                        servicio</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                            data-bs-toggle="collapse" data-bs-target="#clientes-collapse" aria-expanded="false">
+                            Clientes
+                        </button>
+                        <div class="collapse" id="clientes-collapse">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li><a href="./consultarClienteLavAr.html"
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Consultar
+                                        clientes</a></li>
+                                <li><a href="./registrarClienteLavAr.html"
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Registrar
+                                        cliente</a></li>
+                                <li><a href="./modificarClienteLavAr.html"
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Modificar
+                                        cliente</a></li>
+                                <li><a href="./eliminarClienteLavAr.html"
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Eliminar
+                                        cliente</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                            data-bs-toggle="collapse" data-bs-target="#vehiculos-collapse" aria-expanded="false">
+                            Vehículos
+                        </button>
+                        <div class="collapse" id="vehiculos-collapse">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li><a href="./consultarVehiculosLavAr.html"
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Consultar
+                                        vehículos</a></li>
+                                <li><a href="./registrarVehiculoLavAr.html"
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Registrar
+                                        vehículo</a></li>
+                                <li><a href="./modificarVehiculoLavAr.html"
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Modificar
+                                        vehículo</a></li>
+                                <li><a href="./eliminarVehiculoLavAr.html"
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Eliminar
+                                        vehículo</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                            data-bs-toggle="collapse" data-bs-target="#turnos-collapse" aria-expanded="false">
+                            Turnos
+                        </button>
+                        <div class="collapse" id="turnos-collapse">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li><a href="./consultarTurnoLavAr.html"
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Consultar
+                                        turnos</a></li>
+                                <li><a href="./registrarTurnoLavAr.html"
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Registrar
+                                        turno</a></li>
+                                <li><a href="./modificarTurnoLavAr.html"
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Modificar
+                                        turno</a></li>
+                                <li><a href="./eliminarTurnoLavAr.html"
+                                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Eliminar
+                                        turno</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="border-top my-3"></li>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                            data-bs-toggle="collapse" data-bs-target="#usuarios-collapse" aria-expanded="false">
+                            Usuarios
+                        </button>
+                        <div class="collapse" id="usuarios-collapse">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li><a href="./consultarUsuarioLavAr.html" class="link-dark d-inline-flex text-decoration-none rounded">Consultar
+                                        usuarios</a></li>
+                                <li><a href="./registrarUsuarioLavAr.html" class="link-dark d-inline-flex text-decoration-none rounded">Registrar
+                                        usuario</a></li>
+                                <li><a href="./modificarUsuarioLavAr.html" class="link-dark d-inline-flex text-decoration-none rounded">Modificar
+                                        usuario</a></li>
+                                <li><a href="./eliminarUsuarioLavAr.html" class="link-dark d-inline-flex text-decoration-none rounded">Eliminar
+                                        usuario</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--    Aca esta el main    -->
+        <div class="col-sm-6 col-lg-10 themed-grid-col">
+            <div class="container">
+                <main class="w-100 m-auto">
+                    <h4 class="mt-4">Eliminación de turnos:</h4>
+                    <form action="" class="form-control mt-3">
+                        <label for="" class="form-label etiqueta-form mt-2">Dia: <input type="date" name="" id="el-dia" class="form-control"></label>
+                        <label for="" class="form-label etiqueta-form  mt-2">Hora: <input type="time" name="" id="el-hora" class="form-control"></label>
+                        <label for="" class="form-label etiqueta-form  mt-2">Cliente: <input type="text" name="" id="el-cliente" class="form-control" disabled></label>
+                        <label for="" class="form-label etiqueta-form mt-2">Servicio: <input type="text" name="" id="el-servicio" class="form-control" disabled>
+                            <!-- <select class="form-select" id="select-nombre-servicio" required="">
+                                <option value="" selected disabled>Elija el servicio...</option>
+                                <option>Lavado completo</option>
+                                <option>Lavado interior</option>
+                                <option>Lavado exterior</option>
+                                <option>Lavado premium</option>
+                                <option>Lavado premium 2</option>
+                                <option>Lavado motor</option>
+                            </select> -->
+                        </label>
+                        <label for="" class="form-label etiqueta-form mt-2"> Vehículo: <input type="text" name="" id="el-vehiculo" class="form-control" disabled>
+                            <!-- <select class="form-select" id="localidad" required="">
+                                <option value="" selected disabled>Elija el vehiculo...</option>
+                                <option>IME Rastrojero</option>
+                                <option>Fiat 500</option>
+                                <option>Peugeot 208</option>
+                                <option>Toyota Hilux</option>
+                                <option>Mercedes Benz Sprinter</option>
+                                <option>Citroen C5</option>
+                                <option>Volkswagen Vento</option>
+                                <option>Ford Fiesta KD</option>
+                                <option>Fiat Cronos</option>
+                            </select> -->
+                        </label>
+                        <button class="w-30 btn btn-secondary btn-lg" type="submit" id="el-boton-eliminar-turno">Eliminar turno</button>
+                    </form>
+                </main>
+            </div>
+        </div>
+    </div>
+    <!--    Aca esta el footer    -->
+    <div class="container-fluid sticky-bottom text-bg-dark border-bottom">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-white">© 2023 Lav.Ar una solucion de RGB Soft</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="#">
+                    <img class="bi redSocial" src="./svg/twitter.png" alt="Logo Twitter">
+                </a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#">
+                    <img class="bi redSocial" src="./svg/facebook.png" alt="Logo Facebook">
+                </a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#">
+                    <img class="bi redSocial" src="./svg/instagram.png" alt="Logo Instragram">
+                </a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
